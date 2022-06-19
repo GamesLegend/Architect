@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family:"Segoe UI",Arial,sans-serif;
+}
+
+  /* WORKING WITH HEADER */
+
+ul{
+    list-style:none;  
+    display: flex;
+}
+
+a{
+    text-decoration:none;
+    color:#000;
+    display: inline-block;
+    padding:10px;
+    font-size:18px;
+    font-family:monospace;
+    letter-spacing: 4px;
+    font-weight:400;
+}
+
+a:hover{
+    background-color:rgba(185, 185, 185, 0.925);
+}
+
+header{
+    background-color: #fff;
+    display: flex; 
+    align-items: center;
+    justify-content:space-between;
+    padding:10px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    position:fixed;
+    width:100%;
+}
+
+  /* MAIN SECTION */
+
+  /* LOGO */
+
+.img-center{
+   text-align:center;
+   margin-bottom:70px;
+}
+
+h1{
+    letter-spacing: 4px;
+    font-weight:400;
+    color:#fff;
+}
+
+.logo{
+    position:absolute;
+    top:25rem;
+    left:50rem;
+}
+
+.first-word{
+    background-color: rgba(0, 0, 0, 0.726);
+    color:rgba(255, 255, 255, 0.89);
+    padding:15px 20px;
+    font-weight: bold;
+}
+
+  /* Projects  */
+
+h2{
+    font-weight:400;
+    font-size:25px;
+}
+
+hr{
+    opacity:0.2;
+    margin-bottom:50px;
+}
+
+.projects{
+    max-width: 1614px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.houses{
+    display:flex;
+    gap: 30px;
+    padding:10px;
+}
+
+.image-text{
+    position:absolute;
+    background-color: #000;
+    color:#fff;
+    padding: 9px;
+}
+
+  /* ABOUT */
+
+.about-horizontal{
+    margin-bottom: 20px;
+}
+
+.about{
+    margin-bottom:50px;
+}
+
+  /* CONTACT */
+
+.contact{
+    padding:70px;
+    padding-bottom:30px;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+p{
+    padding: 10px;
+}
+
+h3{
+    padding: 10px;
+    font-size: 50px;
+    font-weight:500;
+}
+
+footer a{
+    display:inline-block;
+    text-align: center;
+    color:#000;
+}
+
+footer a:hover{
+    background-color: #000;
+    color:#fff;
+}
